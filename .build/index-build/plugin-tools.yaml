@@ -1,0 +1,22 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Sparky-arm64-apple-macosx26.0-debug.module": ["<Sparky-arm64-apple-macosx26.0-debug.module>"]
+  "main": []
+  "test": []
+default: "main"
+nodes:
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/","/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Package.swift","/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

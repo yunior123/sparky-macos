@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/master.swiftdeps"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/AppTheme.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/AppTheme.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/AppTheme.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/AppTheme.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/CommandRouter.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/CommandRouter.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/CommandRouter.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/CommandRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/CommandRouter.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/CommandRouter.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/LaunchAtLogin.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/LaunchAtLogin.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/LaunchAtLogin.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/LaunchAtLogin~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/LaunchAtLogin.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/LaunchAtLogin.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/OverlayView.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayView.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayView.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayView~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayView.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayView.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/OverlayWindow.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayWindow.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayWindow.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayWindow.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/OverlayWindow.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/SparkyApp.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyApp.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyApp.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyApp.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyApp.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/SparkyViewModel.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyViewModel.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyViewModel.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyViewModel.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SparkyViewModel.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/SpeechRecognizer.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SpeechRecognizer.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SpeechRecognizer.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SpeechRecognizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SpeechRecognizer.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/SpeechRecognizer.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/TTSEngine.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/TTSEngine.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/TTSEngine.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/TTSEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/TTSEngine.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/TTSEngine.dia"
+  },
+  "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/Sources/VoiceEngine.swift": {
+    "dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/VoiceEngine.d",
+    "object": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/VoiceEngine.swift.o",
+    "swiftmodule": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/VoiceEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/VoiceEngine.swiftdeps",
+    "diagnostics": "/Users/yuniorrodriguezosorio/Documents/GitHub/sparky-macos/.build/arm64-apple-macosx/debug/Sparky.build/VoiceEngine.dia"
+  }
+}
