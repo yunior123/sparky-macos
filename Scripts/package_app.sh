@@ -31,10 +31,11 @@ echo -n "APPL????" > "$APP_BUNDLE/Contents/PkgInfo"
 
 echo "✓ Built: $APP_BUNDLE"
 
-# Optional ad-hoc codesign (for local use without Developer ID)
+# Sign with entitlements (ad-hoc, for local use without Developer ID)
+ENTITLEMENTS="$REPO_ROOT/Resources/Sparky.entitlements"
 if command -v codesign &>/dev/null; then
-    echo "▶ Signing (ad-hoc)..."
-    codesign --force --deep --sign - "$APP_BUNDLE" 2>/dev/null || true
+    echo "▶ Signing (ad-hoc + entitlements)..."
+    codesign --force --deep --sign - --entitlements "$ENTITLEMENTS" "$APP_BUNDLE" 2>/dev/null || true
     echo "✓ Signed"
 fi
 

@@ -1,5 +1,6 @@
 import AppKit
 import AVFoundation
+import Speech
 import SwiftUI
 
 // MARK: - Entry point
@@ -43,14 +44,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         OverlayWindowController.shared.configure(vm: vm)
         OverlayWindowController.shared.show()
 
-        // Request mic + speech permissions then start engine
-        Task {
-            let speechGranted = await StreamingSpeechRecognizer.requestAuthorization()
-            let micGranted    = await requestMicPermission()
-            if speechGranted && micGranted {
-                vm.start()
-            }
-        }
+        // Start immediately — permissions already granted via System Settings
+        vm.start()
     }
 
     func applicationWillTerminate(_ notification: Notification) {
@@ -59,7 +54,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     // MARK: - Private
 
-    private func requestMicPermission() async -> Bool {
+    nonisolated private func requestMicPermission() async -> Bool {
         await withCheckedContinuation { cont in
             switch AVCaptureDevice.authorizationStatus(for: .audio) {
             case .authorized:
@@ -67,6 +62,21 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             case .notDetermined:
                 AVCaptureDevice.requestAccess(for: .audio) { granted in
                     cont.resume(returning: granted)
+                }
+            default:
+                cont.resume(returning: false)
+            }
+        }
+    }
+
+    nonisolated private func requestSpeechPermission() async -> Bool {
+        await withCheckedContinuation { cont in
+            switch SFSpeechRecognizer.authorizationStatus() {
+            case .authorized:
+                cont.resume(returning: true)
+            case .notDetermined:
+                SFSpeechRecognizer.requestAuthorization { status in
+                    cont.resume(returning: status == .authorized)
                 }
             default:
                 cont.resume(returning: false)

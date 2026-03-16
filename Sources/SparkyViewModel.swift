@@ -80,14 +80,8 @@ extension SparkyViewModel: VoiceEngineDelegate {
             self.state = .executing
             self.transcript = command
             StateFile.write("executing")
-
-            let result = await CommandRouter.route(command)
-            if let spoken = result {
-                self.response = spoken
-                self.state = .speaking
-                StateFile.write("speaking")
-                await self.ttsEngine.speak(spoken)
-            }
+            // Inject into active Claude Code terminal — Claude handles the intelligence
+            await CommandRouter.route(command)
             self.state = .idle
             StateFile.write("idle")
         }
